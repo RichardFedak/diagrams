@@ -1,9 +1,90 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="iUekbH3ijtN9w8B4TKnX">
-    <mxGraphModel>
+    <mxGraphModel dx="875" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-4" value="Flyer (.pdf&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ni3nrPL8uIuk4jMJBKSm-6" target="ni3nrPL8uIuk4jMJBKSm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-27" value="X" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="ni3nrPL8uIuk4jMJBKSm-13">
+          <mxGeometry x="0.3048" y="-2" relative="1" as="geometry">
+            <mxPoint x="-15" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="ni3nrPL8uIuk4jMJBKSm-6" target="ni3nrPL8uIuk4jMJBKSm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-6" value="Pre-process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ni3nrPL8uIuk4jMJBKSm-4" target="ni3nrPL8uIuk4jMJBKSm-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="260" as="sourcePoint" />
+            <mxPoint x="160" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="ni3nrPL8uIuk4jMJBKSm-8" target="ni3nrPL8uIuk4jMJBKSm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-8" value="Offer detection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="ni3nrPL8uIuk4jMJBKSm-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="255" as="sourcePoint" />
+            <mxPoint x="544" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-9" value="Sale detection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="ni3nrPL8uIuk4jMJBKSm-10" target="ni3nrPL8uIuk4jMJBKSm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-10" value="Product detection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="364" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="ni3nrPL8uIuk4jMJBKSm-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="644" y="255" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-19" value="Feature extraction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-24" value="Offer(s)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-25" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="ni3nrPL8uIuk4jMJBKSm-19" target="ni3nrPL8uIuk4jMJBKSm-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="185" />
+              <mxPoint x="620" y="220" />
+              <mxPoint x="620" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ni3nrPL8uIuk4jMJBKSm-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="184.66" as="sourcePoint" />
+            <mxPoint x="450" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="322" y="185" />
+              <mxPoint x="322" y="220" />
+              <mxPoint x="450" y="220" />
+              <mxPoint x="450" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
